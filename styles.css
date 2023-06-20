@@ -1,11 +1,12 @@
 *{
     margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 img{
     width: 200px;
 }
 header{
-    background-color: #1f1937;
+    background-color: #1f2937;
     color: white;
 }
 .hero-container{
@@ -16,7 +17,31 @@ header{
 .nav-container{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 100px;
 }
 a{
     color: white;
+}
+
+.hero-container > section > h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+.hero-container > section > p{
+    font-size: 18px;
+}
+.hero-container > section > button{
+    width: 100px;
+    background-color: #3882f6; 
+    border-radius: 5px;
+    border-style: none;
+    padding: 8px;
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
 }
