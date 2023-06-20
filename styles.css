@@ -1,8 +1,22 @@
+*{
+    margin: 0px;
+}
 img{
     width: 200px;
 }
-
+header{
+    background-color: #1f1937;
+    color: white;
+}
 .hero-container{
     display: flex;
     justify-content: space-around;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    color: white;
 }
