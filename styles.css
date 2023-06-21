@@ -6,23 +6,27 @@
 img {
   width: 200px;
 }
-header {
-  background-color: #1f2937;
-  color: white;
-}
-
 
 a {
   color: white;
 }
 
 /*------------------------------ the header section ------------------------------------------*/
+
+/*--- the header-container ---*/
+.header-container {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
 /*--- the nav-bar ---*/
-.nav-container{
-    display: flex;
+.nav-container {
+  display: flex;
   justify-content: space-around;
-    padding: 20px 0px 10px 0px;
-    margin-bottom: 100px;
+  padding: 20px 0px 10px 0px;
+  margin-bottom: 100px;
 }
 /*--- the hero section ---*/
 .hero-container {
@@ -55,4 +59,29 @@ a {
   color: white;
   margin-top: 10px;
   font-weight: bold;
+}
+
+/*------------------------------ the main section ------------------------------------------*/
+
+/*--- the information-container ---*/
+.images-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.information-container > div > div > img {
+  width: 100px;
+  /* margin: 0px 15px 0px 15px; */
+}
+.information-container > h2 {
+  font-weight: bold;
+  margin: 25px;
+}
+main {
+  text-align: center;
+}
+
+.image-card {
+  margin: 0px 15px 0px 15px;
 }
